@@ -1,6 +1,8 @@
 ---
 outline: deep
+
 ---
+
 ## 功能配置
 
 `[function]`
@@ -12,27 +14,27 @@ outline: deep
 - 带删除线的表示已经弃用或其它原因不使用，如果有替代的功能，查看说明。
 - 替代功能的相关配置开启时会自动关闭原废弃功能，防止重复运行，但是任然建议将废弃功能删除。
 
-| Key             | 默认值 | 说明                                       | 配置                                                       |
-| --------------- | ------ | ------------------------------------------ | ---------------------------------------------------------- |
-| loginTask       | `true` | 获取个人信息（一般会自动调用，且无法关闭） |                                                            |
-| exchangeCoupon  |        | 兑换漫读券 （暂时只能通过指定 task 运行）  | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.htmlfunc.html#兑换漫读券)  |
-| liveSignTask    | `true` | 直播间签到                                 |                                                            |
-| addCoins        | `true` | 投币                                       | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#投币)        |
-| bigPoint        |        | 大会员领取大积分                           | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#大积分)      |
-| shareAndWatch   | `true` | 观看和分享视频                             |                                                            |
-| silver2Coin     | `true` | 银瓜子兑换硬币                             |                                                            |
-| mangaTask       |        | 漫画任务                                   | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#漫画任务)    |
-| supGroupSign    |        | 应援团签到 （目前也无意义了啊）            |                                                            |
-| useCouponBp     |        | 使用 b 币券（充电/兑换电池）               | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#使用-b-币券) |
-| getVipPrivilege |        | 获取大会员权益                             |                                                            |
-| matchGame       |        | 赛事竞猜（人人都是硬币慈善家）             | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#竞猜)        |
-| giveGift        |        | 赠送过期礼物                               | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#直播间礼物)  |
-| liveIntimacy    |        | 牌子亲密度 （非云函数为异步运行）          | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#粉丝亲密度)  |
-| batchUnfollow   |        | 取消关注                                   | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#取关分组)    |
-| liveRedPack     |        | 直播天选红包                               | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#天选红包)    |
-| dailyBattery    |        | 每日电池任务                               |                                                            |
-| activityLottery |        | 转盘抽奖                                   | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#转盘抽奖)    |
-| judgement       |        | 风纪委员                                   | [点击](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#风纪委员)    |
+| Key             | 默认值 | 说明                                       | 配置                                            |
+| --------------- | ------ | ------------------------------------------ | ----------------------------------------------- |
+| loginTask       | `true` | 获取个人信息（一般会自动调用，且无法关闭） |                                                 |
+| exchangeCoupon  |        | 兑换漫读券 （暂时只能通过指定 task 运行）  | [点击](/biliTools/config/func.html#兑换漫读券)  |
+| liveSignTask    | `true` | 直播间签到                                 |                                                 |
+| addCoins        | `true` | 投币                                       | [点击](/biliTools/config/func.html#投币)        |
+| bigPoint        |        | 大会员领取大积分                           | [点击](/biliTools/config/func.html#大积分)      |
+| shareAndWatch   | `true` | 观看和分享视频                             |                                                 |
+| silver2Coin     | `true` | 银瓜子兑换硬币                             |                                                 |
+| mangaTask       |        | 漫画任务                                   | [点击](/biliTools/config/func.html#漫画任务)    |
+| supGroupSign    |        | 应援团签到 （目前也无意义了啊）            |                                                 |
+| useCouponBp     |        | 使用 b 币券（充电/兑换电池）               | [点击](/biliTools/config/func.html#使用-b-币券) |
+| getVipPrivilege |        | 获取大会员权益                             |                                                 |
+| matchGame       |        | 赛事竞猜（人人都是硬币慈善家）             | [点击](/biliTools/config/func.html#竞猜)        |
+| giveGift        |        | 赠送过期礼物                               | [点击](/biliTools/config/func.html#直播间礼物)  |
+| liveIntimacy    |        | 牌子亲密度 （非云函数为异步运行）          | [点击](/biliTools/config/func.html#粉丝亲密度)  |
+| batchUnfollow   |        | 取消关注                                   | [点击](/biliTools/config/func.html#取关分组)    |
+| liveRedPack     |        | 直播天选红包                               | [点击](/biliTools/config/func.html#天选红包)    |
+| dailyBattery    |        | 每日电池任务                               |                                                 |
+| activityLottery |        | 转盘抽奖                                   | [点击](/biliTools/config/func.html#转盘抽奖)    |
+| judgement       |        | 风纪委员                                   | [点击](/biliTools/config/func.html#风纪委员)    |
 
 ```json
 {
@@ -99,7 +101,7 @@ outline: deep
 | Key        | 值类型   | 默认值     | 说明                                                         |
 | ---------- | -------- | ---------- | ------------------------------------------------------------ |
 | use        | 字符串   | `充电`     | 使用的方式，可以是 `充电`/`charge` `电池`/`battery`          |
-| mid        | 数值     | 自己的 mid | 使用充电时有效，目标的 mid（默认自己）[获取方式](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#用户-id) |
+| mid        | 数值     | 自己的 mid | 使用充电时有效，目标的 mid（默认自己）[获取方式](/biliTools/config/func.html#用户-id) |
 | presetTime | 数值数组 | `[10, 20]` | 使用 b 币券的日期，每月最后一天必定运行。空数组表示每一天    |
 
 ```json
@@ -142,7 +144,7 @@ PS：涉及到硬币安全，建议开启后修改默认配置到适合自己的
 | -------------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | excludeAward   | 字符串数组         | `["舰","船","航海","代金券","优惠券","自拍","照","写真","图","提督","车车一局","再来一局","游戏道具"]` | 奖品描述不能包含，比如“自拍一张”将被跳过                     |
 | includeAward   | 字符串数组         | `["谢"]`                                                     | 奖品描述包含，如果满足则跳过 excludeAward                    |
-| blackUid       | 数值数组           | `[65566781, 1277481241, 1643654862, 603676925]`              | up 黑名单（up 的 id，不是房间号）[获取方式](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#用户-id) |
+| blackUid       | 数值数组           | `[65566781, 1277481241, 1643654862, 603676925]`              | up 黑名单（up 的 id，不是房间号）[获取方式](/biliTools/config/func.html#用户-id) |
 | moveTag        | 字符串             | `天选时刻`                                                   | 关注的用户统一移动到此                                       |
 | pageNum        | 数值               | `2`                                                          | 扫描几页直播间                                               |
 | actFollowMsg   | `read`或者 `del`   | `'read'`                                                     | 关注时产生的回复的处理方式                                   |
@@ -268,7 +270,7 @@ PS：正常运行的前提时配置了目标用户 `mids`，否则不会运行�
 
 | Key  | 值类型     | 默认值             | 说明                                                         |
 | ---- | ---------- | ------------------ | ------------------------------------------------------------ |
-| mids | 数值数组   | coin.customizeUp   | 自定义投喂礼物 UP， 在所填中随机选取，[获取方式](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#用户-id) |
+| mids | 数值数组   | coin.customizeUp   | 自定义投喂礼物 UP， 在所填中随机选取，[获取方式](/biliTools/config/func.html#用户-id) |
 | all  | 布尔值     | `false`            | 配置为 `true` 无视其它礼物配置，投喂所有即将过期礼物         |
 | id   | 数值数组   | （见下面参考写法） | 自定义投喂礼物投喂礼物的 id                                  |
 | name | 字符串数组 | `[]`               | 自定义投喂礼物的名字，如果不知道怎么获取 id，那就填写名字    |
@@ -308,7 +310,7 @@ PS：如果想要观看直播间获取亲密度，请手动开启 `liveHeart`。
 | isRetryHeart    | 布尔             | `[]`    | 完成直播心跳后是否再检查一次，可能因为数据延迟而重复操作，不建议云函数开启 |
 
 - 布尔值，`true` 表示开启，`false` 表示关闭
-- **用户 id**（主站的 id） 并非主播直播间 ID，[获取方式](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#用户-id)
+- **用户 id**（主站的 id） 并非主播直播间 ID，[获取方式](/biliTools/config/func.html#用户-id)
 
 ```json
 {
@@ -349,7 +351,7 @@ PS：如果想要观看直播间获取亲密度，请手动开启 `liveHeart`。
 | guess | 布尔       | `false` | 猜拳                     |
 
 - 布尔值，`true` 表示开启，`false` 表示关闭
-- mc 获取：[https://manga.bilibili.com/detail/mc29195在新窗口打开](https://manga.bilibili.com/detail/mc29195) 这篇漫画的 mcId 就是 `29195`。[获取方式](https://heidaotu.github.io/WFRobertBlog/biliTools/config/func.html#漫画-id)
+- mc 获取：[https://manga.bilibili.com/detail/mc29195在新窗口打开](https://manga.bilibili.com/detail/mc29195) 这篇漫画的 mcId 就是 `29195`。[获取方式](/biliTools/config/func.html#漫画-id)
 
 ```json
 {
