@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "WFRobert"
-  text: "个人博客"
+  text: "个人文档"
   tagline: 这是我的历史.
   actions:
     - theme: brand
       text: 开始
-      link: /markdown-examples
+      link: /biliTools/config/func.html
     - theme: alt
       text: 建设中
       link: /api-examples
