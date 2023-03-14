@@ -8,10 +8,10 @@ hero:
   tagline: 这是我的历史.
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 建设中
       link: /api-examples
 
 features:
