@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     base: '/ScriptDocument/',
     title: "WFRobert",
-    description: "脚本文档",
+    description: "脚本文档1",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
