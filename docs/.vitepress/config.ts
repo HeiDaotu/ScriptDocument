@@ -2,9 +2,9 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: '/WFRobertBlog/',
+    base: '/ScriptDocument/',
     title: "WFRobert",
-    description: "个人博客",
+    description: "脚本文档",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
