@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /biliTools/config/func.html
+      link: /jd/config/
     - theme: alt
       text: 建设中
       link: /api-examples

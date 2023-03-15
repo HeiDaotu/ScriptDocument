@@ -490,6 +490,28 @@ PS：任务风纪委员可能会因为审核期间漏掉一天的审核，所以
 | proxyPrefix | 字符串         | `https://ghproxy.com/` | 请求 GitHub 使用的代理前缀，例如 https://ghproxy.com/        |
 | customUrl   | 字符串         |                        | 自定义活动列表链接。有自己的在线列表或者有使用前缀无法处理的链接都可以直接在此配置完整的。 |
 
+```json 参考写法
+{
+  // 转盘抽奖
+  activityLottery: {
+    // 活动列表
+    list: [],
+    // 是否从网络请求活动列表
+    isRequest: true,
+    // 抽奖延时（秒）
+    delay: [1.8, 3.2],
+    // 与 isRequest 配合，是否通过追番增加次数（如果有番剧/影视，追番然后取消，当然不一定能增加次数），云函数不建议开启
+    bangumi: false,
+    // 同上，不过是关注，（未完成，配置了也没用）
+    follow: false,
+    // 请求 GitHub 使用的代理前缀，例如 https://ghproxy.com/
+    proxyPrefix: 'https://ghproxy.com/',
+    // 自定义活动列表链接
+    customUrl: '',
+  },
+}
+```
+
 PS:
 
 `list` 写法（以下只是格式参考，不保证内容有效）
@@ -511,7 +533,7 @@ PS:
 
 在 `config` 配置文件的同级目录下创建一个 `bt_activityLottery.json` 的文件，写入如下内容：
 
-```json
+```json tag
 {
   "activity_list": [
     {
@@ -519,32 +541,6 @@ PS:
       "title": "美味之旅，由柠开启"
     }
   ]
-}
-```
-
-
-
-
-
-```json
-{
-  // 转盘抽奖
-  activityLottery: {
-    // 活动列表
-    list: [],
-    // 是否从网络请求活动列表
-    isRequest: true,
-    // 抽奖延时（秒）
-    delay: [1.8, 3.2],
-    // 与 isRequest 配合，是否通过追番增加次数（如果有番剧/影视，追番然后取消，当然不一定能增加次数），云函数不建议开启
-    bangumi: false,
-    // 同上，不过是关注，（未完成，配置了也没用）
-    follow: false,
-    // 请求 GitHub 使用的代理前缀，例如 https://ghproxy.com/
-    proxyPrefix: 'https://ghproxy.com/',
-    // 自定义活动列表链接
-    customUrl: '',
-  },
 }
 ```
 
