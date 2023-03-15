@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "WFRobert"
-  text: "个人文档"
+  text: "脚本文档"
   tagline: 这是我的历史.
   actions:
     - theme: brand
@@ -12,7 +12,8 @@ hero:
       link: /jd/config/
     - theme: alt
       text: 建设中
-      link: /api-examples
+      link: /
+[//]: # (      link: /api-examples)
 
 features:
   - title: Feature A

@@ -4,12 +4,23 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     base: '/ScriptDocument/',
     title: "WFRobert",
-    description: "脚本文档1",
+    description: "脚本文档",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: '青龙脚本', link: '/jd/config/'}
+            {text: '参考文档', link: '/jd/config/'},
+            {
+                text: '脚本地址', items: [
+                    {
+                        text: '主地址',
+                        link: 'http://frp-fly.top:12078/#/'
+                    }, {
+                        text: '备用地址',
+                        link: 'http://frp-fly.top:12078/#/'
+                    }
+                ]
+            }
         ],
         sidebar: [
             {
@@ -34,7 +45,7 @@ export default defineConfig({
                         ]
                     },
                     {text: '52破解', link: '/52pj/config/'},
-                    {text: 'Runtime API Examples', link: '/api-examples'}
+                    // {text: 'Runtime API Examples', link: '/api-examples'}
                 ]
             }
         ],
