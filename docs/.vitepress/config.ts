@@ -6,10 +6,10 @@ export default defineConfig({
     title: "WFRobert",
     description: "脚本文档",
     themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
+        // 右上角显示
         nav: [
             {text: 'Home', link: '/'},
-            {text: '参考文档', link: '/environment.md'},
+            {text: '参考文档', link: '/reference/', activeMatch: '/reference/'},
             {
                 text: '脚本地址', items: [
                     {
@@ -22,15 +22,16 @@ export default defineConfig({
                 ]
             }
         ],
+        // 左边文章栏显示
         sidebar: [
             {
                 text: '青龙脚本',
                 items: [
-                    {text: '环境配置', link: '/environment.md'},
-                    {text: '京东', link: '/jd/config/'},
+                    {text: '环境配置', link: '/reference/'},
+                    {text: '京东', link: '/reference/jd/'},
                     {
                         text: 'B站工具',
-                        link: '/code_maintenance.md'
+                        link: '/reference/code_maintenance.md'
                         // items: [
                         //     {
                         //         text: '配置说明',
@@ -46,7 +47,7 @@ export default defineConfig({
                         //     }
                         // ]
                     },
-                    {text: '吾爱破解签到', link: '/52pj/config/'},
+                    {text: '吾爱破解签到', link: '/reference/52pojie/'},
                     // {
                     //     text:'百度贴吧',
                     //     items:[
@@ -57,7 +58,7 @@ export default defineConfig({
                     //
                     //     ]
                     // }
-                    {text: '百度贴吧签到', link: '/tieba/config/'},
+                    {text: '百度贴吧签到', link: '/reference/tieba/'},
                     // {text: 'Runtime API Examples', link: '/api-examples'}
                 ]
             }
@@ -65,6 +66,13 @@ export default defineConfig({
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/HeiDaotu'}
-        ]
+        ],
+
+        editLink: {
+            pattern: 'https://github.com/HeiDaotu/ScriptDocument/tree/main/docs/:path',
+            text: 'Edit this page on GitHub'
+        },
+
+
     }
 })
