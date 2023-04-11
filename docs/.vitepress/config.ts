@@ -8,7 +8,7 @@ export default defineConfig({
 
     // 网站logo,图片使用打包的时候，只能在docs/public文件夹下
     head:[
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/logo.png' }]
     ],
 
     base: '/ScriptDocument/',
