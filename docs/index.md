@@ -7,7 +7,7 @@ hero:
   text: "脚本文档"
   tagline: 这是我的历史。
   image:
-    src: /logo.png
+    src: /logo-img.png
     alt: VitePress
   actions:
     - theme: brand

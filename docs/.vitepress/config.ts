@@ -8,7 +8,7 @@ export default defineConfig({
 
     // 网站logo
     head:[
-        ['link', { rel: 'icon', href: '/logo.png' }]
+        ['link', { rel: 'icon', href: '/public/favicon.ico' }]
     ],
 
     base: '/ScriptDocument/',
