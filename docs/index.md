@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "WFScript"
-  text: "脚本文档"
+  name: "無非"
+  text: "世界無非是这样的，或是那样的。"
   tagline: Hello，欢迎来到我的脚本站，你可以在里面可以看到你需要的文档。
   image:
     src: /logo-img.png

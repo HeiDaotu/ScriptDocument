@@ -6,7 +6,7 @@ export default defineConfig({
     // 更新时间开启
     lastUpdated: true,
     // 网站标签标题
-    title: "WFScript",
+    title: "無非脚本",
     // 网站描述
     description: "这是WF的脚本站。",
 
@@ -19,7 +19,7 @@ export default defineConfig({
 
     themeConfig: {
         // 左上角网站标题
-        siteTitle: '無非脚本',
+        siteTitle: '無非',
         // 左上角logo
         logo: '/logo.png',
         // 右侧导航栏显示
