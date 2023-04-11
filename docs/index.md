@@ -6,6 +6,9 @@ hero:
   name: "WFRobert"
   text: "脚本文档"
   tagline: 这是我的历史。
+  image:
+    src: /logo.png
+    alt: VitePress
   actions:
     - theme: brand
       text: 参考文档

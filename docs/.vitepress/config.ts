@@ -1,16 +1,22 @@
 import {defineConfig} from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
     // 语言
     lang: 'zh-CN',
     // 更新时间开启
     lastUpdated: true,
 
+    // 网站logo
+    head:[
+        ['link', { rel: 'icon', href: '/logo.png' }]
+    ],
+
     base: '/ScriptDocument/',
     title: "WFRobert",
     description: "脚本文档",
     themeConfig: {
+        // 左上角logo
+        logo: '/logo.png',
         // 右上角显示
         nav: [
             {text: 'Home', link: '/'},
