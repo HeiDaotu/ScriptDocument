@@ -6,7 +6,7 @@ export default defineConfig({
     // 更新时间开启
     lastUpdated: true,
 
-    // 网站logo
+    // 网站logo,图片使用打包的时候，只能在docs/public文件夹下
     head:[
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
