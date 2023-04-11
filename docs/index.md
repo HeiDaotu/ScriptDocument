@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "WFRobert"
+  name: "WFScript"
   text: "脚本文档"
-  tagline: 这是我的历史。
+  tagline: Hello，欢迎来到我的脚本站，你可以在里面可以看到你需要的文档。
   image:
     src: /logo-img.png
     alt: VitePress

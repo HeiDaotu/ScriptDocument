@@ -5,20 +5,29 @@ export default defineConfig({
     lang: 'zh-CN',
     // 更新时间开启
     lastUpdated: true,
+    // 网站标签标题
+    title: "WFScript",
+    // 网站描述
+    description: "这是WF的脚本站。",
 
-    // 网站logo,图片使用打包的时候，只能在docs/public文件夹下
-    head:[
-        ['link', { rel: 'icon', href: '/logo.png' }]
+    // 网站logo,在Git上打包的时候图片只能在docs/public文件夹下,否则打包看不到
+    head: [
+        ['link', {rel: 'icon', href: '/logo.png'}]
     ],
+    // 路由，可有可无
+    // base: '/ScriptDocument/',
 
-    base: '/ScriptDocument/',
-    title: "WFRobert",
-    description: "脚本文档",
     themeConfig: {
+        // 左上角网站标题
+        siteTitle: '無非脚本',
         // 左上角logo
         logo: '/logo.png',
-        // 右上角显示
+        // 右侧导航栏显示
+        outline: {
+            label:"大纲",
+        },
         nav: [
+
             {text: 'Home', link: '/'},
             // 上方activeMatch同一个文件夹里的文件，全部高亮
             {text: '参考文档', link: '/reference/', activeMatch: '/reference/'},
@@ -64,7 +73,7 @@ export default defineConfig({
                 ]
             }
         ],
-        // 右上角图片跳转列表
+        // 右上角社交图片跳转列表
         socialLinks: [
             {icon: 'github', link: 'https://github.com/HeiDaotu'}
         ],
@@ -73,5 +82,10 @@ export default defineConfig({
             pattern: 'https://github.com/HeiDaotu/ScriptDocument/tree/main/docs/:path',
             text: 'Edit this page on GitHub'
         },
+        // 最底下的页脚，版权信息等
+        footer: {
+            message: 'Released under the MIT License.',
+            copyright: 'Copyright © 2019-present WF'
+        }
     }
 })
