@@ -27,7 +27,5 @@ features:
   - icon: 🚀
     title: 青龙脚本
     details: 暂时只支持青龙脚本。
-    link: https://github.com/HeiDaotu/WFRobertQL
-    linkText: 青龙脚本库
 ---
 
