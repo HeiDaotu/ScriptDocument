@@ -22,8 +22,12 @@ features:
   - icon: 📝
     title: 脚本站
     details: 这是脚本站文档，请查看参考文档，来更为方便的使用脚本。
+    link: https://script.heitu.eu.org/
+    linkText: 脚本站点
   - icon: 🚀
     title: 青龙脚本
     details: 暂时只支持青龙脚本。
+    link: https://github.com/HeiDaotu/WFRobertQL
+    linkText: 青龙脚本库
 ---
 
