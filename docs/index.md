@@ -7,7 +7,7 @@ hero:
   text: "世界無非是这样的，或是那样的。"
   tagline: Hello，欢迎来到我的脚本站，你可以在里面可以看到你需要的文档。
   image:
-    src: /logo-img.png
+    src: /logo-good.png
     alt: VitePress
   actions:
     - theme: brand
