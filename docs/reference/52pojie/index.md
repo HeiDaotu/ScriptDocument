@@ -3,5 +3,6 @@
 
 ## 获取Cookie
 
-进入[吾爱破解](https://www.52pojie.cn/)，获取 `Cookie` 。
-![image-20230321214738996](https://fastly.jsdelivr.net/gh/HeiDaotu/img-bucket/img/202303212148366.png)
+进入[吾爱破解](https://www.52pojie.cn/)，获取 `Cookie` ，`cookie` 从 `index.php` 中获取，其他地方的 `cookie` 不同。
+
+![image-20230517184413378](https://fastly.jsdelivr.net/gh/HeiDaotu/img-bucket/img/202305171845091.png)
