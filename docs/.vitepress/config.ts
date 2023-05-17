@@ -24,7 +24,7 @@ export default defineConfig({
         logo: '/logo.png',
         // 右侧导航栏显示
         outline: {
-            label:"大纲",
+            label: "大纲",
         },
         nav: [
 
@@ -34,11 +34,14 @@ export default defineConfig({
             {
                 text: '脚本地址', items: [
                     {
-                        text: '主地址',
+                        text: '成品脚本站地址',
                         link: 'https://script.heitu.eu.org/'
                     }, {
-                        text: '备用地址',
-                        link: 'https://script.heitu.eu.org/'
+                        text: 'github开源脚本地址',
+                        link: 'https://github.com/HeiDaotu/WFRobertQL'
+                    }, {
+                        text: '青龙脚本管理地址',
+                        link: 'https://ql.heitu.eu.org/'
                     }
                 ]
             }
@@ -70,6 +73,7 @@ export default defineConfig({
                     // },
                     {text: '吾爱破解签到', link: '/reference/52pojie/'},
                     {text: '百度贴吧签到', link: '/reference/tieba/'},
+                    {text: '阿里云盘签到', link: '/reference/aliyunpan/'},
                 ]
             }
         ],
