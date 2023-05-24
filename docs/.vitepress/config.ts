@@ -71,9 +71,14 @@ export default defineConfig({
                     //     //     }
                     //     // ]
                     // },
-                    {text: '吾爱破解签到', link: '/reference/52pojie/'},
-                    {text: '百度贴吧签到', link: '/reference/tieba/'},
-                    {text: '阿里云盘签到', link: '/reference/aliyunpan/'},
+                    {text: '吾爱破解', link: '/reference/52pojie/'},
+                    {text: '百度贴吧', link: '/reference/tieba/'},
+                    {text: '阿里云盘', link: '/reference/aliyunpan/'},
+                    {text: '天翼网盘', link: '/reference/tianyiwanpan/'},
+                    {text: 'DDNSTO', link: '/reference/ddnsto/'},
+                    {text: '小黑盒', link: '/reference/xiaoheihe/'},
+                    {text: '好游快报', link: '/reference/haoyoukuaibao/'},
+                    {text: '交易猫', link: '/reference/jiaoyimao/'},
                 ]
             }
         ],
