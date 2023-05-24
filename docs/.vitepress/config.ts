@@ -79,6 +79,7 @@ export default defineConfig({
                     {text: '小黑盒', link: '/reference/xiaoheihe/'},
                     {text: '好游快报', link: '/reference/haoyoukuaibao/'},
                     {text: '交易猫', link: '/reference/jiaoyimao/'},
+                    {text: '网易云游戏', link: '/reference/wangyiyungame/'},
                 ]
             }
         ],
