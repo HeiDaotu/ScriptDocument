@@ -26,63 +26,13 @@ export default defineConfig({
         outline: {
             label: "大纲",
         },
-        nav: [
-
-            {text: 'Home', link: '/'},
-            // 上方activeMatch同一个文件夹里的文件，全部高亮
-            {text: '参考文档', link: '/reference/', activeMatch: '/reference/'},
-            {
-                text: '脚本地址', items: [
-                    {
-                        text: '成品脚本站地址',
-                        link: 'https://script.heitu.eu.org/'
-                    }, {
-                        text: 'github开源脚本地址',
-                        link: 'https://github.com/HeiDaotu/WFRobertQL'
-                    }, {
-                        text: '青龙脚本管理地址',
-                        link: 'https://ql.heitu.eu.org/'
-                    }
-                ]
-            }
-        ],
-        // 左边文章栏显示
-        sidebar: [
-            {
-                text: '青龙脚本',
-                items: [
-                    {text: '环境配置', link: '/reference/'},
-                    {text: '京东', link: '/reference/jd/'},
-                    // {
-                    //     text: 'B站工具',
-                    //     link: '/reference/code_maintenance.md'
-                    //     // items: [
-                    //     //     {
-                    //     //         text: '配置说明',
-                    //     //         link: '/biliTools/config/'
-                    //     //     },
-                    //     //     {
-                    //     //         text: '配置详情',
-                    //     //         link: '/biliTools/config/account'
-                    //     //     },
-                    //     //     {
-                    //     //         text: '功能配置',
-                    //     //         link: '/biliTools/config/func'
-                    //     //     }
-                    //     // ]
-                    // },
-                    {text: '吾爱破解', link: '/reference/52pojie/'},
-                    {text: '百度贴吧', link: '/reference/tieba/'},
-                    {text: '阿里云盘', link: '/reference/aliyunpan/'},
-                    {text: '天翼网盘', link: '/reference/tianyiwanpan/'},
-                    {text: 'DDNSTO', link: '/reference/ddnsto/'},
-                    {text: '小黑盒', link: '/reference/xiaoheihe/'},
-                    {text: '好游快报', link: '/reference/haoyoukuaibao/'},
-                    {text: '交易猫', link: '/reference/jiaoyimao/'},
-                    {text: '网易云游戏', link: '/reference/wangyiyungame/'},
-                ]
-            }
-        ],
+        // 导航栏
+        nav: nav(),
+        // 侧边栏
+        sidebar: {
+            '/reference/': sidebarReference(),
+            '/ai/': sidebarAi()
+        },
         // 右上角社交图片跳转列表
         socialLinks: [
             {icon: 'github', link: 'https://github.com/HeiDaotu'}
@@ -99,3 +49,77 @@ export default defineConfig({
         }
     }
 })
+
+function nav() {
+    return [
+        {text: 'Home', link: '/'},
+        {text: '参考文档', link: '/reference/', activeMatch: '/reference/'},
+        {
+            text: '脚本地址', items: [
+                {
+                    text: '成品脚本站地址',
+                    link: 'https://script.heitu.eu.org/'
+                }, {
+                    text: 'github开源脚本地址',
+                    link: 'https://github.com/HeiDaotu/WFRobertQL'
+                }, {
+                    text: '青龙脚本管理地址',
+                    link: 'https://ql.heitu.eu.org/'
+                }
+            ]
+        },
+        {text: 'AI文档', link: '/ai/', activeMatch: '/ai/'},
+    ]
+}
+
+// 左边文章栏显示
+function sidebarReference() {
+    return [
+        {
+            text: '青龙脚本',
+            items: [
+                {text: '环境配置', link: '/reference/'},
+                {text: '京东', link: '/reference/jd/'},
+                // {
+                //     text: 'B站工具',
+                //     link: '/reference/code_maintenance.md'
+                //     // items: [
+                //     //     {
+                //     //         text: '配置说明',
+                //     //         link: '/biliTools/config/'
+                //     //     },
+                //     //     {
+                //     //         text: '配置详情',
+                //     //         link: '/biliTools/config/account'
+                //     //     },
+                //     //     {
+                //     //         text: '功能配置',
+                //     //         link: '/biliTools/config/func'
+                //     //     }
+                //     // ]
+                // },
+                {text: '吾爱破解', link: '/reference/52pojie/'},
+                {text: '百度贴吧', link: '/reference/tieba/'},
+                {text: '阿里云盘', link: '/reference/aliyunpan/'},
+                {text: '天翼网盘', link: '/reference/tianyiwanpan/'},
+                {text: 'DDNSTO', link: '/reference/ddnsto/'},
+                {text: '小黑盒', link: '/reference/xiaoheihe/'},
+                {text: '好游快报', link: '/reference/haoyoukuaibao/'},
+                {text: '交易猫', link: '/reference/jiaoyimao/'},
+                {text: '网易云游戏', link: '/reference/wangyiyungame/'},
+            ]
+        }
+    ]
+}
+
+// 左边文章栏显示
+function sidebarAi() {
+    return [
+        {
+            text: 'AI文档',
+            items: [
+                {text: '推荐AI', link: '/ai/', activeMatch: '/ai/'}
+            ]
+        }
+    ]
+}
