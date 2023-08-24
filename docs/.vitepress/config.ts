@@ -57,18 +57,15 @@ function nav() {
         {
             text: '脚本地址', items: [
                 {
-                    text: '成品脚本站地址',
-                    link: 'https://script.heitu.eu.org/'
+                    text: '脚本挂机上车地址',
+                    link: 'https://script.heidaotu.eu.org/#/'
                 }, {
                     text: 'github开源脚本地址',
                     link: 'https://github.com/HeiDaotu/WFRobertQL'
-                }, {
-                    text: '青龙脚本管理地址',
-                    link: 'https://ql.heitu.eu.org/'
                 }
             ]
         },
-        {text: 'AI文档', link: '/ai/', activeMatch: '/ai/'},
+        // {text: 'AI文档', link: '/ai/', activeMatch: '/ai/'},
     ]
 }
 

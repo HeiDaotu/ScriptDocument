@@ -1,8 +1,6 @@
 # DDNSTO
 
-> 这是ddnsto自动续费7天免费套餐的脚本。
-
-## 获取Cookie
+> 这是ddnsto续费7天免费套餐的脚本。
 
 进入[DDNSTO](https://www.ddnsto.com/)，获取 `Cookie`  。
 
