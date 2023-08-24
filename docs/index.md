@@ -15,14 +15,14 @@ hero:
       link: /reference/
     - theme: alt
       text: 脚本地址
-      link: https://script.heitu.eu.org/
+      link: https://github.com/HeiDaotu/WFRobertQL
 [//]: # (      link: /api-examples)
 
 features:
   - icon: 📝
     title: 脚本站
     details: 这是脚本站文档，请查看参考文档，来更为方便的使用脚本。
-    link: https://script.heitu.eu.org/
+    link: https://github.com/HeiDaotu/WFRobertQL
     linkText: 脚本站点
   - icon: 🚀
     title: 青龙脚本
