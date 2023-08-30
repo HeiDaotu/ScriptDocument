@@ -8,5 +8,4 @@
 
 **变量值：**`flarum_remember=xxx; flarum_session=xxxx`
 
-![image-20230830181220920](C:\Users\wuban\AppData\Roaming\Typora\typora-user-images\image-20230830181220920.png)
-
+![image-20230830181220920](https://fastly.jsdelivr.net/gh/HeiDaotu/img-bucket/img/202308301833497.png)
