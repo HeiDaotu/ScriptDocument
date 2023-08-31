@@ -22,7 +22,8 @@
 | [好游快报](https://www.3839.com/)               | ✅              | ❌            | ✅        | 每日爆米花浇水                                               |
 | [交易猫](https://www.jiaoyimao.com/)            | ✅              | ❌            | ✅        | 每日签到得积分                                               |
 | [网易云游戏](https://cg.163.com/#/mobile)       | ✅              | ❌            | ✅        | 每日签到获取使用时间和成长值                                 |
-| [邀玩（药丸）](https://invites.fun/)            | ✅              | ❌            | ✅        | 每日签到得药丸                                               |
-
+| [邀玩论坛](https://invites.fun/)                | ✅              | ❌            | ✅        | 每日签到得药丸                                               |
+| [恩山论坛](https://www.right.com.cn/)           | ✅              | ❌            | ✅        | 每日模拟登录获得+1恩山币（积分）                             |
+| [科学刀论坛](https://www.kxdao.net/)            | ✅              | ❌            | ✅        | 每日签到                                                     |
 
 
