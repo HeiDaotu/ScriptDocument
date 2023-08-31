@@ -104,7 +104,8 @@ function sidebarReference() {
                 {text: '好游快报', link: '/reference/haoyoukuaibao/'},
                 {text: '交易猫', link: '/reference/jiaoyimao/'},
                 {text: '网易云游戏', link: '/reference/wangyiyungame/'},
-                {text: '邀玩（药丸）', link: '/reference/invites/'},
+                {text: '邀玩（药丸）论坛', link: '/reference/invites/'},
+                {text: '恩山论坛', link: '/reference/enshan/'},
             ]
         }
     ]
