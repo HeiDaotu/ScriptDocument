@@ -106,6 +106,7 @@ function sidebarReference() {
                 {text: '网易云游戏', link: '/reference/wangyiyungame/'},
                 {text: '邀玩（药丸）论坛', link: '/reference/invites/'},
                 {text: '恩山论坛', link: '/reference/enshan/'},
+                {text: '科学刀论坛', link: '/reference/kxdao/'},
             ]
         }
     ]
