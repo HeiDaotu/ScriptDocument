@@ -56,10 +56,11 @@ function nav() {
         {text: '参考文档', link: '/reference/', activeMatch: '/reference/'},
         {
             text: '脚本地址', items: [
+                // {
+                //     text: '脚本挂机上车地址',
+                //     link: 'https://script.heidaotu.eu.org/#/'
+                // },
                 {
-                    text: '脚本挂机上车地址',
-                    link: 'https://script.heidaotu.eu.org/#/'
-                }, {
                     text: 'github开源脚本地址',
                     link: 'https://github.com/HeiDaotu/WFRobertQL'
                 }
@@ -99,6 +100,7 @@ function sidebarReference() {
                 {text: '百度贴吧', link: '/reference/tieba/'},
                 {text: '阿里云盘', link: '/reference/aliyunpan/'},
                 {text: '天翼网盘', link: '/reference/tianyiwanpan/'},
+                {text: '夸克网盘', link: '/reference/kuakepan/'},
                 {text: 'DDNSTO', link: '/reference/ddnsto/'},
                 {text: '小黑盒', link: '/reference/xiaoheihe/'},
                 {text: '好游快报', link: '/reference/haoyoukuaibao/'},
